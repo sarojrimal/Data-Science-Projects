@@ -1,0 +1,29 @@
+Task Breakdown: 
+1.	Data Understanding	
+   - Basic visualizations
+   - checking missing values and null
+2.	Data Transformation	
+    a.	Changing housing, loan, default, and y variable into binary	
+    b.	Converting job, education, contact, marital, poutcome, and month into ordinal numbers on the basis of cases number in the dataset	
+    c.	Creating a new age_category column and classifying the age on the basis of age groups
+    d.	Creating new column duration minutes and changing the values of duration from seconds to minutes
+3.	Initial Data Analysis	10
+    a.	Calculating and displaying the summary statistics of the target variables (age, duration, balance, campaign, and duration_minutes)
+    b.	Calculating and visualizing the correlation between target variables	
+4.	Data Exploration and Visualization	
+    a.	Histogram and Box plot for the target variables (age, duration and balance)	
+    b.	Bar graph displaying the total number of peoples those subscribed with their job category	
+    c.  Bar graph displaying average balance of people from each age group	
+5.	Further Analysis	
+    - correlation between the variables using heatmap
+    - Total number of subscribers and non subscribers 
+    - Checking Outliers
+6. Model Building
+    - Prepare the data to train a model
+    - Spliting the data into training and test set in the ratio of 70:30
+    - Comparing base models 
+       Logistic Regression
+       Decision Tree
+    - Connfusion matrix of above base models
+    - ROC Graph 
+    - Base model results (accuracy, precision, recall, F-1 score, mean and standard deviation
